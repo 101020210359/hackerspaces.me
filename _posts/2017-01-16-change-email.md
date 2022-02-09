@@ -7,6 +7,7 @@ categories:
   - web-application-penetration-testing
   - thick-client-penetration-testing
   - mobile-application-penetration-testing
+  - open-source-intelligence
 description: Update your email address
 type: Document
 ---
