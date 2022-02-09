@@ -1,6 +1,6 @@
-- name: Spaces
+- name: Index
   link: /
-- name: Videolar
+- name: Videos
   link: /videos/
-- name: Hakkında
+- name: FAQ
   link: /faq/
