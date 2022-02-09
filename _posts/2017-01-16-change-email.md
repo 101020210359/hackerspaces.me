@@ -6,6 +6,7 @@ categories:
   - red-teaming
   - web-application-penetration-testing
   - thick-client-penetration-testing
+  - mobile-application-penetration-testing
 description: Update your email address
 type: Document
 ---
