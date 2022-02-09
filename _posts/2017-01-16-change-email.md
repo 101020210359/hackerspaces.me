@@ -3,6 +3,9 @@ date: 2017-01-16 00:00:00
 title: Change email
 categories:
   - penetration-testing
+  - red-teaming
+  - web-application-penetration-testing
+  - thick-client-penetration-testing
 description: Update your email address
 type: Document
 ---
