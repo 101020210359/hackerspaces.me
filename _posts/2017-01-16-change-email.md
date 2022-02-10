@@ -12,6 +12,7 @@ categories:
   - network-security
   - personal-security
   - physical-penetration-testing
+  - security-awareness
 description: Update your email address
 type: Document
 ---
