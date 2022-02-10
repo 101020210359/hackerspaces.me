@@ -1,8 +1,19 @@
 ---
-date: 2017-01-16
+date: 2017-01-16 00:00:00
 title: First steps
 categories:
   - getting-started
+  - web-application-penetration-testing
+  - mobile-application-penetration-testing
+  - open-source-intelligence
+  - physical-penetration-testing
+  - personal-security
+  - penetration-testing
+  - red-teaming
+  - security-awareness
+  - solidity-security
+  - thick-client-penetration-testing
+  - network-security
 description: Your first steps on our platform
 type: Document
 ---
@@ -12,7 +23,7 @@ If you already have a full Ruby development environment with all headers and Rub
 
 ## How to install
 
-~~~ bash
+```bash
 # Install Jekyll and Bundler gems through RubyGems
 ~ $ gem install jekyll bundler
 
@@ -26,7 +37,7 @@ If you already have a full Ruby development environment with all headers and Rub
 ~/myblog $ bundle exec jekyll serve
 
 # Now browse to http://localhost:4000
-~~~
+```
 
 ## Next steps
 
@@ -36,7 +47,7 @@ Building a Jekyll site with the default theme is just the first step. The real m
 
 The Jekyll gem makes a `jekyll` executable available to you in your Terminal window. You can use this command in a number of ways:
 
-~~~ bash
+```bash
 $ jekyll build
 # => The current folder will be generated into ./_site
 
@@ -49,7 +60,7 @@ $ jekyll build --source <source> --destination <destination>
 $ jekyll build --watch
 # => The current folder will be generated into ./_site,
 #    watched for changes, and regenerated automatically.
-~~~
+```
 
 ## Directory structure
 
@@ -57,7 +68,7 @@ Jekyll is, at its core, a text transformation engine. The concept behind the sys
 
 A basic Jekyll site usually looks something like this:
 
-~~~ bash
+```bash
 .
 ├── _config.yml
 ├── _data
@@ -80,22 +91,22 @@ A basic Jekyll site usually looks something like this:
 ├── _site
 ├── .jekyll-metadata
 └── index.html # can also be an 'index.md' with valid YAML Frontmatter
-~~~
+```
 
 ## Front matter
 
 The front matter is where Jekyll starts to get really cool. Any file that contains a YAML front matter block will be processed by Jekyll as a special file. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines. Here is a basic example:
 
-~~~ html
+```html
 ---
 layout: post
 title: Blogging Like a Hacker
 ---
-~~~
+```
 
 Between these triple-dashed lines, you can set predefined variables (see below for a reference) or even create custom ones of your own. These variables will then be available to you to access using Liquid tags both further down in the file and also in any layouts or includes that the page or post in question relies on.
 
-![Example image](https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1920&h=1080&fit=crop&s=80308172730757a7db0434987fa985f3)
+![Example image](https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1920&amp;h=1080&amp;fit=crop&amp;s=80308172730757a7db0434987fa985f3)
 
 ## Where additional pages live
 
