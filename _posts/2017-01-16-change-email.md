@@ -8,6 +8,10 @@ categories:
   - thick-client-penetration-testing
   - mobile-application-penetration-testing
   - open-source-intelligence
+  - solidity-security
+  - network-security
+  - personal-security
+  - physical-penetration-testing
 description: Update your email address
 type: Document
 ---
